@@ -1,10 +1,17 @@
+.bg{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
 .outer{
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(./images/15665837_941803995952835_4178700964159351298_n.jpg);
+    background-image: url(./images/bb.jpg);
     background-size: cover;
   }
 
@@ -16,3 +23,7 @@
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
   } */
+  .headings{
+      color: whitesmoke;
+  }
+  
