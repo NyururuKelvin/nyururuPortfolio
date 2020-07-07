@@ -26,4 +26,10 @@
   .headings{
       color: whitesmoke;
   }
+  .headings{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   
