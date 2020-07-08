@@ -43,5 +43,18 @@
   }
   h1{
     font-family: 'Cinzel', serif;
+    border: whitesmoke 4px inset;
+    padding: 5px;
   }
-  
+  body{
+    background-color: rgb(250, 210, 173);
+  }
+  .carousel-inner{
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    background-size: cover;
+  }
+  .carousel-inner img {
+    width: 60%;
+    height: 70vh;
+  }
