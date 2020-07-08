@@ -34,7 +34,7 @@
     text-align: center;
   }
   footer{
-      background-color: rgb(12, 0, 12);
+      background-color: black;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
