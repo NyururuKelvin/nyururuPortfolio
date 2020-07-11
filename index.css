@@ -44,6 +44,7 @@
   }
   main{
     border: black solid 1px;
+    background-image: url(/images/pexels-photo-1939485.jpeg);
   }
 
   h1{
@@ -52,7 +53,7 @@
     padding: 5px;
   }
   body{
-    background-image: url(/images/pexels-photo-1939485.jpeg);
+    /* background-image: url(/images/pexels-photo-1939485.jpeg); */
     font-family: 'Flamenco', cursive;
     font-size: 22px;
   }
