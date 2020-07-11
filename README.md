@@ -7,7 +7,6 @@ The portfolio gives a brief Summary of Kelvins journey at Moringa School, some o
 * Visit the website landing page
 * navigate through the simple website
 ## Live Demo
-https://nyururukelvin.github.io/nyururuPortfolio/
 ## Known Bugs
 So far there are no bugs on the portfolio
 ## Technologies Used
