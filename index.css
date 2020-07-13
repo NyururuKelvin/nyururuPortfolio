@@ -11,7 +11,7 @@
     top: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(./images/bb.jpg);
+    background-image: url(./images/nikon-1.jpg);
     background-size: cover;
   }
 
@@ -21,14 +21,14 @@
     top: 0%;
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
   }
   .headings{
       color: whitesmoke;
   }
   .headings{
     position: absolute;
-    left: 70%;
+    left: 30%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -88,7 +88,7 @@
   form{
     padding: 10px;
     text-align: center;
-    background-image: url(./images/bb.jpg);
+    background-image: url(./images/nikon-1.jpg);
     height: 300px;
     background-size: cover;
     color: white;
