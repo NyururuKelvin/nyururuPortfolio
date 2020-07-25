@@ -14,52 +14,48 @@
     <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="bg">
-            <div class="outer">
-                <div class="blur">
-                    <div class="details">
-                        <div class="headings">
-                            <h1>
-                                <span>Nyururu</span>
-                                <span>Portfolio</span>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><br><br>
+    <div class="container-fluid home">
+        <div class="headings">
+            <h1>
+                <span>Nyururu</span>
+                <span>Portfolio</span>
+            </h1>
+        </div>
+    </div><br>
+    <div class="container gallery">
         <h4>Gallery</h4>
         <!-- End of header -->
         <div id="demo" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
             </ul>
             
             <!-- The slideshow -->
             <div class="carousel-inner">
-              <div class="carousel-item active">
+                <div class="carousel-item active">
                 <img src="./images/fb2.jpg" alt="image">
-              </div>
-              <div class="carousel-item">
+                </div>
+                <div class="carousel-item">
                 <img src="./images/fb1.jpg" alt="image">
-              </div>
-              <div class="carousel-item">
+                </div>
+                <div class="carousel-item">
                 <img src="./images/fb.jpg" alt="image">
-              </div>
+                </div>
             </div>
             
             <!-- Left and right controls -->
             <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"></span>
             </a>
             <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
+                <span class="carousel-control-next-icon"></span>
             </a>
-        </div><br>
+        </div>
+    </div><br>
+    <div class="container">
         <main>
             <h4>List of the projects I have completed.</h4>
             <ul class="list">
@@ -88,6 +84,8 @@
                 </ol>
             </div>
         </main>
+    </div><br>
+    <div class="container li">
         <aside>
             <h4>Lets interact</h4>
         <form>
@@ -103,6 +101,7 @@
         </form>  
         </aside>
     </div>
+    
 </body>
 <footer>
     <section id="contacts" class="icons">
