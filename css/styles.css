@@ -1,19 +1,4 @@
-/*
-=============== 
-Fonts
-===============
-*/
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-/*
-=============== 
-Variables
-===============
-*/
-
-/* * {
-  box-sizing: border-box;
-} */
 
 body {
   font-family: 'Dancing Script', cursive;
@@ -36,13 +21,13 @@ body {
   --clr-primary-3: hsl(43, 72%, 37%);
   --clr-primary-4: hsl(42, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(42, 78%, 60%);
+  --clr-primary-5: hsl(45, 2%, 58%);
   /* lighter shades of primary color */
-  --clr-primary-6: hsl(43, 89%, 70%);
-  --clr-primary-7: hsl(43, 90%, 76%);
-  --clr-primary-8: hsl(45, 86%, 81%);
-  --clr-primary-9: hsl(45, 90%, 88%);
-  --clr-primary-10: hsl(45, 100%, 96%);
+  --clr-primary-6: hsl(45, 2%, 58%);
+  --clr-primary-7: hsl(45, 2%, 58%);
+  --clr-primary-8: hsl(45, 2%, 58%);
+  --clr-primary-9: hsl(45, 2%, 58%);
+  --clr-primary-10: hsl(45, 2%, 58%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
@@ -187,7 +172,7 @@ p {
   width: 5rem;
   height: 0.25rem;
   margin-bottom: 1.25rem;
-  background: var(--clr-primary-5);
+  background-color: brown;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1004,4 +989,56 @@ Products Page
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 3rem 1rem;
+}
+
+/* Skills Section */
+
+#skills{
+  height: 100vh;
+  background: linear-gradient(to right, white,rgb(82, 75, 75));
+  margin-bottom: 0;
+}
+
+.html{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+div[class^='tag-']{
+  clip-path: polygon(75% 0%,100% 50%,75% 100%,0% 100%,0% 50%,0% 0%);
+  width: 10%;
+  height: 30px;
+  background-color: rgba(0,0, 0,.6) ;
+  margin-right: 30px;
+  padding-left: 5px;
+}
+
+div[class^='tag-'] p{
+  text-align: left;
+  color: white;
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+.progressbar{
+  width: 70%;
+  height: 20px;
+  border: 1px solid #48CFAD;
+  border-radius: 20px;
+  margin-top: 7px;
+}
+
+.bar-progress{
+  background:linear-gradient(to left, #48CFAD,#48CF);
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease;
+  text-align: center;
+
 }

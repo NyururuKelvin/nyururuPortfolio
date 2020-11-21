@@ -20,3 +20,13 @@ closeBtn.addEventListener("click", function () {
 });
 // set year
 date.innerHTML = new Date().getFullYear();
+
+const progresses = document.querySelectorAll(".bar-progress");
+
+progresses.forEach((progress)=>{
+    setTimeout(()=>{
+        progress.style.opacity = 1; 
+        progress.style.width = progress.getAttribute('data-done') + '%';
+    },500)
+    
+})
