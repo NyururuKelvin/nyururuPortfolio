@@ -1,114 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
-    <title>Nyururu Portfolio</title>
-    <link href="index.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <div class="container-fluid home">
-        <div class="headings">
-            <h1>
-                <span>Nyururu</span>
-                <span>Portfolio</span>
-            </h1>
-        </div>
-    </div><br>
-    <div class="container gallery">
-        <h4>Gallery</h4>
-        <!-- End of header -->
-        <div id="demo" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
-            
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="./images/fb2.jpg" alt="image">
-                </div>
-                <div class="carousel-item">
-                <img src="./images/fb1.jpg" alt="image">
-                </div>
-                <div class="carousel-item">
-                <img src="./images/fb.jpg" alt="image">
-                </div>
-            </div>
-            
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
-    </div><br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amimo Matete || Home</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <main>
-            <h4>List of the projects I have completed.</h4>
-            <ul class="list">
-                <li><a href="https://nyururukelvin.github.io/pairProject/">Real Estate Website</a></li>
-                    <p>The website Showcases Properties both for sale and rentals for our customers.</p>
-                    <p>Real Estate project uses HTML & Css.</p>
-                <li><a href="https://nyururukelvin.github.io/nyururuPhotography/">Nyururu Photography Website</a></li>
-                    <p>The website shows the different genres of Photography that the owner deals with, it also has a gallery section for showing his work and finally an interactive section where one can leave a comment and also book a shoot.</p>
-                    <p>Nyururu Photography uses HTML and Css languages</p>
-                <li><a href="https://nyururukelvin.github.io/eCommerce/">iGrocer Online market</a></li>
-                    <p>This is an online Agricultural store that both producers and consumers can post and purchase fresh farm products.</p>
-                    <p>iGrocer have been designed using JavaScript, Bootstrap, Html and Css.</p>
-            </ul>
-            <h4>About Me</h4>
-            <div class="info">
-                <p id="about">Nyururu is a <strong>Photographer and a filmmaker</strong>. <em>Nyururu Photography</em> is a state of the art digital Photo Shoot based Countrywide, its main focus is to provide quality digital Photos to its clients. With its motto <strong>“Capturing the spirit of today & Preserving yesterdays memories"</strong>. Nyururu Photography serves NGOs, Corporates, Professional Photographers and many more in the Kenyan region.<br><span> We offer services such as; <span>Photo Shoots, Digital prints & Mounting, Video Coverage, Drone Photography and others</span>.</span></p>
-                <p>Due to the vast technology growth, I decided to venture into programming so as to blend into the ever growing Tech, this way I position myself as a potential Employee to the Tech companies and also I am able to solve challenges facing Africa using Technology.</p>
-            </div>
-            <div>
-                <h4>My hobbies include</h4>
-                <ol>
-                    <li>Coding</li>
-                    <li>Photography</li>
-                    <li>Playing Darts and Chess</li>
-                    <li>Football both Live and Fifa</li>
-                </ol>
-            </div>
-        </main>
-    </div><br>
-    <div class="container li">
-        <aside>
-            <h4>Lets interact</h4>
-        <form>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname" placeholder="Firstname" required>
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname" placeholder="Lastname" required><br><br>
-            <label for="email">Email:</label>
-            <input type="text" id="lname" name="lname"  placeholder="YourEmail/Phone No." required><br><br>
-            <textarea name="message" rows="2" cols="50" placeholder="leave your comment" required></textarea>
-            <br>
-            <input type="submit" value="Submit">
-        </form>  
-        </aside>
-    </div>
-    
-</body>
-<footer>
-    <section id="contacts" class="icons">
-        <a href="https://www.instagram.com/kelvinnyururu/" target="_blank"><i class="fab fa-instagram" style="font-size:38px; color:white"></i></a>
-        <a href="https://web.facebook.com/kelvin.nyururu" target="_blank"><i class='fab fa-facebook' style='font-size:36px; color:white'></i></a>
-        <a href="https://twitter.com/nyururukelvin9" target="_blank"><i class="fab fa-twitter" style="font-size:37px; color:white"></i></a>
-        <a href="https://github.com/NyururuKelvin" target="_blank"><i class='fab fa-github' style='font-size:36px; color:white'></i></a>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <h3>Amimo Matete</h3>
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar" style="background-image: url(https://images.unsplash.com/photo-1555298305-f64672c34821?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);" >
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- nav-links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.linkedin.com/in/gilbert-matete-a3b91a141/" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/GilbertAmimo" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/AmimoG" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- header -->
+    <header class="hero" style="background-image: url(https://images.unsplash.com/photo-1555298305-f64672c34821?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);" >
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1 style="color: goldenrod;" >i'm Amimo</h1>
+          <h4>full-stuck web Developer</h4>
+          <a href="contact.html" class="btn hero-btn"></a>
+          <!-- social icons -->
+          <ul class="social-icons hero-icons" style="margin-top: 20px;" >
+            <li>
+              <a href="https://www.linkedin.com/in/gilbert-matete-a3b91a141/" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/GilbertAmimo" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/AmimoG" class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="hero-img">
+          <img src="./images/hero-img.jpg" class="hero-photo" alt="amimo matete" />
+        </article>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- about -->
+    <section class="section about">
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img
+            src="./images/hero-img.jpg"
+            class="hero-photo"
+            alt="about img"
+          />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title about-title">
+            <h2>about</h2>
+            <div class="underline"></div>
+          </div>
+          <!--end of section title -->
+          <p>
+            My name is Amimo Matete, I am a full-stuck developer with a vast 
+            experience working on various projects.
+
+
+          </p>
+          <p>
+            I specializes in using various programming languages they include; Angular, JavaScript, Python and PHP 
+            to build great websites including E-Commerce websites, customer facing APIs, and also has experience integrating payment systems.
+          </p>
+          <a href="about.html" class="btn">about me</a>
+        </article>
+      </div>
     </section>
-</footer>
+    <!-- end of about -->
+    <!-- services -->
+    <section class="section bg-grey">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>services</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      <div class="services-center section-center">
+        <!-- single service -->
+        <article class="service">
+          <i class="fas fa-code service-icon"></i>
+          <h4>web development</h4>
+          <div class="underline"></div>
+          <p>
+            Web development is the building and maintenance of websites; 
+            it's the work that happens behind the scenes to make a website look great, 
+            work fast and perform well with a seamless user experience.
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <i class="fab fa-sketch service-icon"></i>
+          <h4>web design</h4>
+          <div class="underline"></div>
+          <p>
+            When designing a website, it’s imperative to consider both the look and the functionality of the site. 
+            Integrating these elements into the design will help maximize the performance of the site, regardless of how performance is measured.
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <i class="fab fa-android service-icon"></i>
+          <h4>Full-stack Developer</h4>
+          <div class="underline"></div>
+          <p>
+            I am an experts in both the front-end and back-end, the full stack of technology that makes up a website. 
+            I am proficient in both front-end and back-end languages and frameworks, as well as in server, network and hosting environments.
+            I am well-versed in both business logic and user experience, thus I can also guide and consult on strategy too.
+          </p>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
+    <!-- end of services -->
+    <!-- projects -->
+    <section class="section projects" style="background-image: url(https://images.unsplash.com/photo-1555298305-f64672c34821?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);" >
+      <!-- section title -->
+      <div class="section-title">
+        <h2 style="color: goldenrod;" >latest works</h2>
+        <div class="underline"></div>
+        <p class="projects-text">
+          These are some of the latest projects that I have build
+        </p>
+      </div>
+      <!--end of section title -->
+      <div class="section-center projects-center">
+        <!-- single project -->
+        <a href="projects.html" class="project-1">
+          <article class="project">
+            <img
+              src="./images/project-1.jpeg"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>Neighbourhood</h4>
+              <p>Moringa School</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+        <!-- single project -->
+        <a href="projects.html" class="project-2">
+          <article class="project">
+            <img
+              src="./images/project-2.jpeg"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>Blogging website</h4>
+              <p>Moringa School</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project --><!-- single project -->
+        <a href="projects.html" class="project-3">
+          <article class="project">
+            <img
+              src="./images/pizzaworld.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>Pizza-world</h4>
+              <p>Moringa School</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project --><!-- single project -->
+        <a href="projects.html" class="project-4">
+          <article class="project">
+            <img
+              src="./images/project-4.jpeg"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>GitTracker</h4>
+              <p>Moringa School</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+      </div>
+    </section>
+    <!-- end of projects -->
+    <!-- connect -->
+    <section class="connect">
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        class="video-container"
+        poster="./images/project-1.jpeg"
+      >
+        <source src="./videos/connect.mp4" type="video/mp4" />
+        Sorry, your browser does not support embedded videos
+      </video>
+      <div class="video-banner">
+        <!-- section title -->
+        <div class="section-title">
+          <h2>let's get in touch</h2>
+          <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p class="video-text">
+          These are the contacts you can use to reach me. <br>Email: gilbertmatete6@gmail.com
+          <br> Phone Number: +254 719 657 770
+        </p>
+        <a href="contact.html" class="btn">contact me</a>
+      </div>
+    </section>
+    <!-- end of connect -->
+    <!-- skills -->
+    <section class="section skills">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>skills</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      
+      <div class="container">    
+        <div class="col-12">
+            <div class="row services" >
+            <div class="card" style="width: 18rem;">
+                <img src="./images/js.png" class="card-img-top" alt="...">                
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="./images/html&css.jpg" class="card-img-top" alt="...">                
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Angular.png" class="card-img-top" alt="...">                
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Python.jpg" class="card-img-top" alt="...">                
+            </div>
+          
+            </div> 
+            </div> 
+          
+    
+        </div>
+    </div>
+    <!-- end of skills -->
+    <!-- timeline -->
+    
+    <!-- blog -->
+    <section class="section blog">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>blog</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      <div class="section-center blog-center">
+        <!-- single article -->
+        <div class="card">
+          <!-- front of the card -->
+          <div class="card-side card-front">
+            <img src="./images/Dataprotection.jpg" alt="" />
+            <div class="card-info">
+              <h4>Blochchain and the Law</h4>
+              <p>
+                PROPERTY RIGHT, RIGHT TO PRIVACY AND RIGHT TO BE FORGOTTEN IN RELATION TO BLOCKCHAIN TECHNOLOGY.
+              </p>
+              <div class="card-footer">
+                <img src="./images/hero-img-small.jpg" alt="author image" />
+                <p>7 min read</p>
+              </div>
+            </div>
+          </div>
+          <!-- card back  -->
+          <div class="card-side card-back">
+            <a href="https://gilbertmatete6.medium.com/property-right-right-to-privacy-and-right-to-be-forgotten-in-relation-to-blockchain-technology-e818f37cc97a">
+              <button class="btn">read more</button>
+            </a>
+          </div>
+        </div>
+        <!-- end of single article -->
+        <!-- single article -->
+        <div class="card">
+          <!-- front of the card -->
+          <div class="card-side card-front">
+            <img src="./images/code-is-law-bits-arte-internet.jpg" alt="" />
+            <div class="card-info">
+              <h4>The Law of Code</h4>
+              <p>
+                IS CODE LAW AND IS IT SUFFICIENT? (LEX CROPTOGRAPHICA AND LEX INFORMATICA)
+              </p>
+              <div class="card-footer">
+                <img src="./images/hero-img-small.jpg" alt="author image" />
+                <p>7 min read</p>
+              </div>
+            </div>
+          </div>
+          <!-- card back  -->
+          <div class="card-side card-back">
+            <a href="https://gilbertmatete6.medium.com/is-code-law-and-is-it-sufficient-lex-croptographica-and-lex-informatica-29e33f99599c">
+              <button class="btn">read more</button>
+            </a>
+          </div>
+        </div>
+        <!-- end of single article -->
+        <!-- single article -->
+        <div class="card">
+          <!-- front of the card -->
+          <div class="card-side card-front">
+            <img src="./images/project-4.jpeg" alt="" />
+            <div class="card-info">
+              <h4>REGULATING BLOCKCHAIN TECHNOLOGY</h4>
+              <p>
+                The internet and technology is a vast wild society, a wild environment which needs taming, but then how can we tame such a dynamic, slippery shape shifting society, which keeps on mutating and taking a very different form and shape every passing hour.
+              </p>
+              <div class="card-footer">
+                <img src="./images/hero-img-small.jpg" alt="author image" />
+                <p>7 min read</p>
+              </div>
+            </div>
+          </div>
+          <!-- card back  -->
+          <div class="card-side card-back">
+            <a href="https://gilbertmatete6.medium.com/regulating-blockchain-technology-c55feea03589">
+              <button class="btn">read more</button>
+            </a>
+          </div>
+        </div>
+        <!-- end of single article -->
+      </div>
+    </section>
+    <!--end of  blog -->
+    <!-- footer -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.linkedin.com/in/gilbert-matete-a3b91a141/" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/GilbertAmimo" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/AmimoG" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>&copy; <span id="date"></span> Amimo Matete. all rights reserved</p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
