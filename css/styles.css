@@ -181,6 +181,7 @@ Navbar
   align-items: center;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  background-color: black;
 }
 .nav-center {
   width: 100%;
@@ -242,7 +243,7 @@ Navbar
   width: 100%;
   background-color: black;
   z-index: 2;
-  box-shadow: var(--light-shadow);
+  /* box-shadow: var(--light-shadow); */
 }
 /*
 =============== 
@@ -255,7 +256,7 @@ Sidebar
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--clr-grey-10);
+  background-color: black;
   z-index: 4;
   display: grid;
   place-items: center;
